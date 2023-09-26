@@ -1,0 +1,26 @@
+
+Name: Michael Jackson
+Booking ID: jg01tng0-bdcs-hacd-q1pg-dcawkddspie3
+Airline: Frontier
+Departure Date: 03/28/2022
+Departure Time: 1:00 PM
+Arrival Time: 6:00 PM
+Estimated Flight Time: 5.0
+Leaving From: Columbia, South Carolina
+Going To: Seattle, Washington
+Number of Transfers: 1
+Transfer Location(s): KATL
+Seat Number: 8
+Seat Class: Coach
+Date of Booking: 03/30/2022
+
+
+Name: Billy Jean
+Booking ID: 9jfgljiy-ktfj-3qrp-ieib-5h1sc3hnwruu
+Hotel Name: Marriot Garden Inn
+Location: Seattle, Washington
+Check-In Date: 08/13/2022
+Check-Out Date: 08/19/2022
+Room Number: 302
+Date of Booking: 03/30/2022
+

@@ -1,0 +1,325 @@
+Welcome to TWC Travel Planning!
+
+1. Login
+2. Create account
+3. View as guest
+4. Quit program
+
+Enter the corresponding number for your desired action:
+
+************ Login ************
+Please Enter your account user name and password.
+User name: 
+Password: 
+
+Type '1' to submit, '2' to go back or '3' to quit.
+option: 1
+Your account has been successfully created!
+
+
+************ Create Account ************
+Please enter your following information.
+Full name:
+Username:
+Email:
+password:
+Confirm password:
+dateOfBirth(MO/DA/YEAR):
+Security Answer:
+
+Type '1' to submit, '2' to go back or '3' to quit.
+option: 1
+Your account has been successfully created!
+
+
+$$$$$$$$ Main Menu $$$$$$$$
+1. Search Flights
+2. Search Hotels
+3. View Bookings
+4. View saved Hotels and Flights
+4. Quit program
+
+Option number:
+
+
+$$$$$$$$ Search Flights $$$$$$$$
+Please fill in the following information.  Leave blank to return all.
+
+Starting airport code: CAE
+Destination airport code: CLT
+Departure Date (MO/DA/YEAR): 07/24/2022
+Arrival Date (MO/DA/YEAR): 07/24/2022
+Departure Time (24 Hour):
+Arrival Time (24 hour):
+
+Type '1' to search or '2' to go back to the main menu or '3' to quit.
+Option: 1
+
+
+$$$$$$$$ Flight Results $$$$$$$$
+
+-----------
+American Airlines
+CAE --> CLT
+No layover
+Departing 07/24/2022 12:00
+Arriving 07/24/2022 13:00
+Allows carry on
+Up to six checked bags
+Passenger Capacity: 250
+Flight ID: 001
+-----------
+JetBlu
+CAE --> CLT
+Layover
+Departing 07/24/2022 15:30
+Arriving 07/24/2022 18:30
+Allows carry on
+Up to three checked bags
+Passenger Capacity: 125
+Flight ID: 002
+-----------
+Southwest Airlines
+CAE --> CLT
+No Layover
+Departing 07/24/2022 13:30
+Arriving 07/24/2022 14:30
+Allows carry on
+Up to five checked bags
+Passenger Capacity: 250
+Flight ID: 003
+-----------
+
+Type  '1' to add filters or '2' to book a flight or '3' to go back to the main menu or '4' to quit.
+Option:
+
+$$$$$$$$ Search Filters $$$$$$$$
+Starting airport code: CAE
+Destination airport code: CLT
+Departure Date (MO/DA/YEAR): 07/24/2022
+Arrival Date (MO/DA/YEAR): 07/24/2022
+Departure Time (24 Hour):
+Arrival Time (24 hour):
+Carry on allowed (true/false):
+Min number of checked bags: 
+
+Type '1' to return to search or '2' to go back to the main menu or '3' to quit.
+Option: 
+
+
+$$$$$$$$ Book Flight $$$$$$$$
+What is the flight id of the flight you would like to book?: 001
+How many bags are you going to check: 4
+Would you like to choose your seat: yes
+What seat class would you like (business, standard): standard
+Seats available are A4, C8, J3, H9
+Which seat would you like: A4
+Do you have any pets (yes/no): no
+Do you require disability accommodations: no
+Your flight has been successfully booked.
+
+Would you like to book a hotel as well (yes/no): no
+Your booking has been successfully completed and added to your bookings.
+
+Type '1' to return to search or '2' to return to the main menu or '3' to quit:
+Option:
+
+
+
+$$$$$$$$ Search Hotels $$$$$$$$
+Please fill in the following information.  Leave blank to return all.
+
+Hotel Name:
+How many rooms: 2
+Location: CLT
+Min price per night: 75
+Max price per night: 
+Min rating: 3
+Arrival Date (MO/DA/YEAR): 07/25/2022
+Departure Date (MO/DA/YEAR): 07/25/2022
+
+Type '1' to search or '2' to go to the main menu or '3' to quit.
+Option:
+
+$$$$$$$$ Hotel Results $$$$$$$$
+-----------
+Home2B Suites
+South Charlotte, NC
+Rating: 4/5 Stars
+Vacancy: true
+Hotel ID: 001
+-----------
+Best Western
+North Charlotte, NC
+Rating: 3/5 Stars
+Vacancy: true
+Hotel ID: 002
+-----------
+Four Seasons
+Rock Hill, SC
+Rating: 5/5 Stars
+Vacancy: false
+Flight ID: 003
+-----------
+
+Type '1' to add filters or '2' to book a hotel or '3' to go back to the main menu.
+Option: 
+
+$$$$$$$$ Search Filters $$$$$$$$
+Hotel Name:
+How many rooms: 2
+Location: CLT
+Min price per night: 75
+Max price per night: 
+Min rating: 3
+Arrival Date (MO/DA/YEAR): 07/25/2022
+Departure Date (MO/DA/YEAR): 07/25/2022
+Smoking allowed (yes/no):
+Number of Beds:
+Availability (yes/no):
+Bed Type (King, Queen, Full):
+
+Type '1' to return to search or '2' to return to the main menu or '3' to quit:
+Option:
+
+
+$$$$$$$$ Book Hotel $$$$$$$$
+What is the hotel id of the hotel you would like to book?: 001
+What room number would you like (blank for no preference):
+How many beds do you need: 1
+What bed size would you like: King
+Do you want a smoking room: no
+
+There is availability for your criteria. Submitting information now.
+Your booking has been successfully completed and added to your bookings.
+
+Type '1' to return to search or '2' to return to the main menu or '3' to quit:
+Option:
+
+
+$$$$$$$$ View Bookings $$$$$$$$
+Your current bookings are as follows:
+-----------------------------------
+----- Flight ------
+CAE -> ClT
+No layover
+Departing 07/24/2022 12:00
+Arriving 07/24/2022 13:00
+Allows carry on
+Four checked bags
+Passenger Capacity: 250
+--Seat--
+Seat number: A4
+Animal: no
+Disability accommodations: no
+--------
+Flight ID: 001
+----- Hotel ------
+Home2B Suites
+South Charlotte, NC
+Rating: 4/5 Stars
+--Room--
+Room: 114
+Smoking: false
+Number of Beds: 1
+Bed Type: King
+--------
+Hotel ID: 001
+----------------------
+-----------------------------------
+
+Type '1' to go back to main menu, '2' to modify a flight/hotel, '3' to display plane ticket, '4' to cancel plane/hotel, '5' to go to the main menu or '6' to quit.
+Option:
+
+
+$$$$$$$$ Modify Bookings $$$$$$$$				(flight instance)
+Would you like to modify a flight or hotel: Flight
+What is the id of the flight: 001
+Would you like to change your seat: yes
+What seat class would you like (business, standard): standard
+Seats available are A4, C8, J3, H9
+Which seat would you like: A4
+Do you have any pets (yes/no): no
+Do you require disability accommodations: no
+
+Your changes have been saved successfully.
+
+Type '1' to go back, '2' to go to the main menu, '3' to quit.
+Option:
+
+
+$$$$$$$$ Modify Bookings $$$$$$$$				(hotel instance)
+Would you like to modify a flight or hotel: hotel
+What is the id of the hotel: 001
+Would you like to change your room: yes
+What room number would you like (blank for no preference):
+How many beds do you need: 1
+What bed size would you like: King
+Do you want a smoking room: no
+
+Your changes have been saved successfully.
+
+Type '1' to go back, '2' to go to the main menu, '3' to quit.
+Option:
+
+$$$$$$$$ Cancel Bookings $$$$$$$$
+Your current bookings are as follows:
+-----------------------------------
+----- Flight ------
+CAE -> ClT
+No layover
+Departing 07/24/2022 12:00
+Arriving 07/24/2022 13:00
+Allows carry on
+Four checked bags
+Passenger Capacity: 250
+--Seat--
+Seat number: A4
+Animal: no
+Disability accommodations: no
+--------
+Flight ID: 001
+----- Hotel ------
+Home2B Suites
+South Charlotte, NC
+Rating: 4/5 Stars
+--Room--
+Room: 114
+Smoking: false
+Number of Beds: 1
+Bed Type: King
+--------
+Hotel ID: 001
+
+Would you like to cancel flight, hotel, or both?
+
+Your changes have been saved successfully. 
+
+Your current bookings are as follows:
+-----------------------------------
+----- Hotel ------
+Home2B Suites
+South Charlotte, NC
+Rating: 4/5 Stars
+--Room--
+Room: 114
+Smoking: false
+Number of Beds: 1
+Bed Type: King
+--------
+Hotel ID: 001
+
+Type '1' to go back, '2' to go to the main menu, '3' to quit.
+
+
+//TODO 
+-error handling screen
+
+
+
+
+
+
+
+ 
+
